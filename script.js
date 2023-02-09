@@ -168,10 +168,10 @@ console.log(data)
 
 //------------------------------------------------------------------------------------------
 
-let data2 = ceoList.filter((item)=>{
-    return item.age==23
-})
-console.log(data2)
+// let data2 = ceoList.filter((item)=>{
+//     return item.age==23
+// })
+// console.log(data2)
 
 // let data3 = names.filter((item)=>{
 //     return item.startsWith("L")
@@ -180,33 +180,33 @@ console.log(data2)
 // //왜 값이 안나오지
 // //filter: 조건에 충족하는(true) 아이템만 배열에 담아 반환한다.
 
-let data4 = names.some((item)=>{
-    return item.startsWith("A")
-})
-console.log(data4)
+// let data4 = names.some((item)=>{
+//     return item.startsWith("A")
+// })
+// console.log(data4)
 //값이 있으면 true 없으면 false로 나옴
 //some: 조건에 충족하는 아이템이 하나라도 있으면 true 반환, 아니면 flase.
 
-let data5 = names.every((item)=>{
-    return item.length>0
-})
-console.log(data5)
+// let data5 = names.every((item)=>{
+//     return item.length>0
+// })
+// console.log(data5)
 //모두가 이름의 길이가 0보다 크냐고 묻는 식
 //every: 모든 배열에 아이템이 조건을 충족하면 true 반환, 아니면 false.
 
-let data6 = names.find((item)=>{
-    return item.startsWith("L")
-})
-console.log(data6)
+// let data6 = names.find((item)=>{
+//     return item.startsWith("L")
+// })
+// console.log(data6)
 //filter는 결과를 배열에 담아서 주고
 //find는 해당 값만 하나 준다.
 //filter는 조건에 속하는 애들 다 반환
 //find는 첫번째로 찾은 하나만 반환 . 정확한 값 딱 하나만 찾기에 좋음
 //find : 조건에 충족하는 아이템 하나만 반환(여러개라면 첫번째것만 반환)
 
-let data7 = names.findIndex((item)=>{
-    return item=="Larry Page"
-})
-console.log("findIndex:",data6)
+// let data7 = names.findIndex((item)=>{
+//     return item=="Larry Page"
+// })
+// console.log("findIndex:",data6)
 //인덱스 번호를 찾아줌.
 //findIndex : 조건에 충족하는 아이템의 인덱스값 반환 (여러개라면 첫번째아이템의 인덱스번호만 반환)
